@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #c6c6ccc0;
+  
+    /* background-image: url("https://www.holidify.com/images/cmsuploads/compressed/Akshardham_20180307153330.jpg");
+    background-size: cover; */
+    
+}
+.nav,#nav{
+    
+    height: 12vh;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+.wish{
+}
+#searchbar{
+    height: 6vh;
+    width:360px;
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+    position: absolute;
+    left:0;
+
+}
+#icon {
+    opacity: 0;
+}
+.search{
+    height: 6vh;
+    width:432px;
+    background-color: rgb(5, 133, 116);
+    border-radius: 12px;
+    border: none;
+    position: relative;
+    
+    left: 60px;
+
+}
+#navitem{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-left: 30px;
+    list-style: none;
+    transition: .5s ease;
+    
+}
+@media (max-width:890px){
+    .hero{
+        filter: blur(5);
+        z-index: 1;
+    }
+  
+    #navitem{
+        backdrop-filter: blur(25px);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 70px;
+        
+        flex-direction: column;
+        background-color: rgb(243, 13, 13);
+        
+
+        width: 40vw;
+        position: absolute;
+        right:-400px;
+        bottom: -450px;
+        
+        gap: 10px;
+        z-index: 99999999;
+    }
+    .search{
+        width: 240px;
+        position: absolute;
+        margin-left: 50px;
+
+    }
+    i{
+        color: white;
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    
+    #searchbar{
+        width: 200px;
+        
+    }
+    #icon{
+        position: absolute;
+        opacity: 1;
+        
+        right: 40px;
+        top: 30px;
+    }
+    .wish{
+        position: absolute;
+    margin-left: 280px;
+    }
+}
+.logo{
+    height: 11vh;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+}
+
+
+.logo img{
+    height: 11vh;
+    width: 120px;
+
+}
+#navitem  a{
+    text-decoration: none;
+}
+#navitem li{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1.4vh;
+text-transform: capitalize;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+ footer{
+    height: 30vw;
+    background-color: black;
+    margin-top: 30px;
+}
+.slider{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    background-color: #d5fbfdd0;
+    margin-top: 18px;
+    box-shadow: 2px 2px 8px rgb(6, 21, 22),-2px -2px 4px white;
+}
+#count{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+    color: aqua;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+section,#destination{
+    height: 40vh;
+    width: 100%;
+    border-radius: 10px;
+   
+    margin: 35px 0;
+ 
+    background:transparent;
+   }
+   .destination{ display: flex;
+    position: relative;
+    flex-wrap: wrap; gap: 20px;}
+#card{
+    
+    
+    top: 10px;
+    left: 10px;
+    height:37vh;
+    width: 150px;
+    color: rgb(7, 7, 7);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    backdrop-filter: blur(15px);
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    box-shadow: 2px 2px 5px black,-2px -2px 5px white;
+   
+
+    
+    background-color: #8081817c;
+}
+
+#card #img{
+    
+    height: 50%;
+    background-color: black;
+   
+    
+    width:100%;
+}
+#control {
+    color: black;
+    display: flex;
+    
+    
+    justify-content: space-around;
+}
+#control button{
+    background: green;
+    border: none;
+    height: 4vh;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
+

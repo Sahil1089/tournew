@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #bcd9fc;
+        }
+        .wishcontainer{
+    height: 40vh;
+    width: 96vw;
+    background-color: rgba(255, 228, 154, 0.671);
+    position: relative;
+    margin-top: 5vh;
+    left: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px black,-2px -2px 4px white;
+}
+.wleft{
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+}
+.wright{
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    background-color: #e7dada;
+    right:2px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div id="nav">
+
+            <div class="logo" >
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJ2K5WzvTHcRoDCf3rjjSnDCBUKMplGkHtQ&s" alt="">
+            </div>
+            <div class="search">
+              <input type="search" name="searchbar" id="searchbar">
+            </div>
+            <div id="icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="wish">
+              <a href="wishlist.html" style="text-decoration: none; color: white;">
+                <i class="fa-regular fa-heart"></i><br>
+                 wishlist 
+          <span id="count"></span></a></div>
+            <ul id="navitem">
+              <a href="index.html">
+                <li>home <br>
+                  <i class="fa-solid fa-house"></i>
+        
+                </li>
+              </a>
+                <a href="#">
+                  <li>about <br><i class="fa-regular fa-address-card"></i>
+        
+                  </li>
+              </a>    
+                <a href="destination.html">
+                    <li><i class="fa-solid fa-plane"></i> <br>
+                      destinations
+                    </li>
+                </a>
+                <a href="#">
+                  <li>
+                    <button style="background-color:rgb(8, 168, 147) ; height: 6vh; width: 99px; border: none; border-radius: 10px;">login</button>
+        
+                  </li>
+              </a>
+              <a href="#">
+                <li>
+                  <i class="fa-solid fa-clipboard-question"></i> <br>
+        FAQs
+                </li>
+            </a>
+           
+        
+              
+          
+        
+            </ul>
+           
+          </div>
+
+          <div class="maincontainer">
+
+         
+
+        </div> 
+    </div>
+
+
+<script src="data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="wish.js"></script>
+
+</body>
+</html>

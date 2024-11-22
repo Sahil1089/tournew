@@ -1,0 +1,37 @@
+body,html{
+    background-color: #f5fdfd;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+.container{
+  
+    height: 90vh;
+    width: 95%;
+    background-color: #faf6ce;
+    border-radius:15px;
+    position: relative;
+    top: 2%;
+    left: 2.6%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 5px black,-2px -2px 5px rgb(231, 230, 230);
+
+}
+.wish{
+    font-size: 1.4rem;
+    
+    
+    position: absolute;
+    margin-left: 40px;
+}
+@media (max-width:900px){
+    .wish{
+        position: absolute;
+    margin-left: 280px;
+    }
+}
+#footer{
+   }
